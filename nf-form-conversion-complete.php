@@ -8,7 +8,7 @@
  * Author: Kyle B. Johnson
  */
 
-add_action( 'init', 'kbj_nf_force_form_conversion_complete' );
+add_action( 'admin_init', 'kbj_nf_force_form_conversion_complete' );
 function kbj_nf_force_form_conversion_complete(){
 
     // Manually set flags from the Form Conversion Upgrade
